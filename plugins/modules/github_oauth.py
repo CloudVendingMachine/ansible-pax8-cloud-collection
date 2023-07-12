@@ -9,7 +9,7 @@ __metaclass__ = type
 
 DOCUMENTATION = r'''
 ---
-module: pax8.cloud.github_oauth
+module: dmunkovpax8.cloud.github_oauth
 
 short_description: This module is used to generate a GitHub OAuth token for a GitHub App.
 
@@ -61,7 +61,7 @@ requirements:
 EXAMPLES = r'''
 # Generate GitHub OAuth token for specific repository
 - name: Generate GitHub OAuth token
-  github_oauth:
+  dmunkovpax8.cloud.github_oauth:
     owner: dmunkovpax8
     repository_name: ansible-github-oauth
     application_id: 12345
@@ -73,7 +73,7 @@ EXAMPLES = r'''
 
 # Generate GitHub OAuth token for the entire organization
 - name: Generate GitHub OAuth token
-  github_oauth:
+  dmunkovpax8.cloud.github_oauth:
     owner: dmunkovpax8
     application_id: 12345
     scope: organization

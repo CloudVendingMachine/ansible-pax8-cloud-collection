@@ -1,4 +1,4 @@
-# Ansible Collection - pax8.cloud
+# Ansible Collection - dmunkovpax8.cloud
 
 Collection for modules related to cloud services.
 Currently, has a single module for GitHub App Authentication.
